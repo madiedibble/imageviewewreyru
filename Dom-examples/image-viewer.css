@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 0;
+}
+h4{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: black;
+    line-height: 100px;
+    text-align: center;
+    user-select: none;
+}
+
+#container{
+    width: 500px;
+    height: 600px;
+}
+
+#hero-image{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+#menu-holder{
+    display:flex;
+    height:100px;
+   
+}
+
+.menu-item{
+    width:100px;
+    height: 100px;
+    border: solid grey 1px;
+
+}
+
+
+
+.button:hover{
+    background-color: burlywood;
+}
+
+.button:active{
+    background-color:blueviolet;
+}
+.selected{
+    background-color: cornflowerblue;
+}
